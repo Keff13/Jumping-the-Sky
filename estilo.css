@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(26, 26, 26);
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+h2 {
+    color: rgb(6, 95, 36);
+}
+p {
+    color: white;
+}
+#SkyQuest {
+    color: rgb(133, 16, 8);
+}
+#contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 150px;
+  padding: 0 2rem;
+}
+
+#FlechaAtras {
+  grid-column: 1;
+  justify-self: start;
+}
+
+#LogoGremioCelta {
+  grid-column: 2;
+  justify-self: center;
+}
